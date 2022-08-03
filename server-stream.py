@@ -7,7 +7,7 @@ import socket, cv2, pickle, struct, imutils
 
 server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 host_name = socket.gethostname()
-host_ip = '192.168.190.129'#server ip
+host_ip = ''#server ip
 port = 5050
 print('Server {0}:{1} adresinde kuruldu'.format(host_ip,port))
 socket_address = (host_ip, port)

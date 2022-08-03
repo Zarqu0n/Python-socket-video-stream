@@ -7,7 +7,7 @@ from distutils.log import error
 import socket,cv2, pickle,struct
 
 client_socket = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
-host_ip = '192.168.190.129' 
+host_ip = '' 
 port = 5050 
 client_socket.connect((host_ip,port)) # a tuple
 data = b""
